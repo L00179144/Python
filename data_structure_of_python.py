@@ -61,6 +61,20 @@ print(f"my dictionary items: {dictionary_variable.items()}")
 print(f"my dictionary keys : {dictionary_variable.keys()}")
 print(f"my dictionary values : {dictionary_variable.values()}")
 
+# iterate dictonary
+
+statesAndCapitals = {
+	'Gujarat': 'Gandhinagar',
+	'Maharashtra': 'Mumbai',
+	'Rajasthan': 'Jaipur',
+	'Bihar': 'Patna'
+}
+print('List Of given states:\n')
+
+# Iterating over keys
+for state in statesAndCapitals:
+	print(state)
+
 
 
 
